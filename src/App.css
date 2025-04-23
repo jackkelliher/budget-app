@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.navbar{
+  display: inline;
+}
+
+.navbar ul{
+  left: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 5%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: grey;
+}
+
+.navbar li{
+  display: inline;
+  float: left;
+}
+
+.navbar a{
+  color: black;
+  display: block;
+  padding: 8px;
+  background-color: grey;
+}
+
+.navbar a:hover {
+  background-color: azure;
+}
